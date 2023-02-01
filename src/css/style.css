@@ -1,0 +1,85 @@
+body {
+  margin: 0 auto;
+}
+.component {
+  width: 40vw;
+  background-color:#E5E5E5 ;
+  margin: 0 auto;
+}
+.container {
+  padding: 12px 18px 20px 20px;
+  width: 100%;
+}
+
+.header {
+  background-color: #fff;
+}
+/*header-------------------------------------------------------------*/
+.nav-icons {
+  width: 20px;
+  height: 20px;
+}
+.main-header {
+  margin: 0;
+  padding: 0;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__date-slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header__date{
+  margin: 0 13px;
+}
+
+.main-header__date-btn {
+  width: 7px;
+  height: 9px;
+}
+
+.main-header__date-btn:hover {
+  color: #336080;
+  transform: scale(1.4);
+  transition: 300ms;
+}
+
+.main-header__date-slider > .date-btn-left {
+  background: url('../icons/arrow-left.svg') center center/cover no-repeat;
+}
+
+.main-header__date-slider > .date-btn-right {
+  background: url('../icons/arrow-right.svg') center center/cover no-repeat;
+}
+
+.main-header__drop-down-menu {
+  background: url('../icons/down-arrow.svg') center center/cover no-repeat;
+}
+
+.main-header__user-menu {
+  background: url('../icons/user.svg') center center/cover no-repeat;
+}
+
+/*--------------------------------------------------------------------*/
+.user-metrics__container {
+  display: flex;
+  justify-content: space-between;
+}
+.user-metrics__block {
+  height: 56px;
+  width: 30%;
+}
+
+.user-metrics__block:not(:last-child) {
+  border-right: #A6BCCC solid 1px;
+  
+}
